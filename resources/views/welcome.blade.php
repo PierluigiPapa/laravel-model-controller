@@ -10,5 +10,7 @@
     @vite('resources/js/app.js')
 
     <h1 class="text-center">CIAO</h1>
+
+    
 </body>
 </html>
