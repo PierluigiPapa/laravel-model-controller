@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+    <title>@yield('page-title') | LARAVEL-MODEL-CONTROLLER</title>
+
     @vite('resources/js/app.js')
 
-    <h1 class="text-center">CIAO</h1>
+</head>
+<body class="bg-warning">
 
-    
+    @include('partials.header')
+
+
+    @yield('main')
+
+
+    @include('partials.footer')
+
 </body>
 </html>
